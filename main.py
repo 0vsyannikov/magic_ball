@@ -16,7 +16,7 @@ while True:
     question = input('На какой вопрос хотите узнать ответ? ')
     print(choice(answer_options))
     next_question = input('Хотите узнать что-то ещё? ')
-    if next_question in ['да', 'д', 'уes', 'y']:
+    if next_question in ['да', 'д', 'уes', 'y', 'Да']:
         continue
     else:
         print('Возвращайтесь, если возникнут вопросы!')
